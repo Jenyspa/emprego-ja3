@@ -1,1 +1,7 @@
 Emprego Já
+
+<% @jobs.each do |job|%>
+<%= job.title%>
+<%= job.company%>
+<%= job.location%>
+<% end %>
